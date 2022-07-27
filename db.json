@@ -1,0 +1,48 @@
+{
+  "productList": [
+    {
+      "productName": "sadsad",
+      "category": "Pi",
+      "freshness": "Rotten",
+      "price": "200",
+      "comment": "sadsad",
+      "date": "2022-07-27T17:00:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "dsfdsf",
+      "category": "Pi",
+      "freshness": "Semi-Fresh",
+      "price": "100",
+      "comment": "dsfsdf",
+      "date": "2022-07-27T17:00:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "asdasd",
+      "category": "Pizza",
+      "freshness": "Rotten",
+      "price": "200",
+      "comment": "sadsadsad",
+      "date": "2022-07-19T17:00:00.000Z",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
