@@ -1,31 +1,22 @@
 {
   "productList": [
     {
-      "productName": "sadsad",
-      "category": "Pi",
-      "freshness": "Rotten",
-      "price": "200",
-      "comment": "sadsad",
+      "productName": "hghfhghjhgjhg",
+      "category": "Pizza",
+      "freshness": "Semi-Fresh",
+      "price": "30",
+      "comment": "hgjhgj",
       "date": "2022-07-27T17:00:00.000Z",
-      "id": 8
+      "id": 2
     },
     {
-      "productName": "dsfdsf",
+      "productName": "hgjghjhgjhgj",
       "category": "Pi",
       "freshness": "Semi-Fresh",
-      "price": "100",
-      "comment": "dsfsdf",
-      "date": "2022-07-27T17:00:00.000Z",
-      "id": 9
-    },
-    {
-      "productName": "asdasd",
-      "category": "Pizza",
-      "freshness": "Rotten",
-      "price": "200",
-      "comment": "sadsadsad",
-      "date": "2022-07-19T17:00:00.000Z",
-      "id": 10
+      "price": "30",
+      "comment": "hgjhgjhgj",
+      "date": "2022-07-14T17:00:00.000Z",
+      "id": 3
     }
   ],
   "posts": [

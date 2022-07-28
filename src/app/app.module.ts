@@ -2,6 +2,7 @@ import { NgModule, LOCALE_ID, DEFAULT_CURRENCY_CODE } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -25,17 +26,29 @@ import {MatSortModule} from '@angular/material/sort';
 import { registerLocaleData } from '@angular/common';
 import localeDe from '@angular/common/locales/de';
 import localeDeExtra from '@angular/common/locales/extra/de';
-
+import { CurdComponent } from './components/curd/curd.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { HelloComponent } from './components/hello/hello.component';
+import { AuthorListComponent } from './components/OutputBinding/author-list/author-list.component';
+import { AuthorDetailComponent } from './components/OutputBinding/author-detail/author-detail.component';
 // Register the localization
 registerLocaleData(localeDe, 'de-DE', localeDeExtra);
 
 @NgModule({
   declarations: [
     AppComponent,
-    DialogComponent
+    DialogComponent,
+    CurdComponent,
+    HomeComponent,
+    AboutComponent,
+    HelloComponent,
+    AuthorListComponent,
+    AuthorDetailComponent,
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
@@ -53,7 +66,7 @@ registerLocaleData(localeDe, 'de-DE', localeDeExtra);
     FormsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule,
+    MatSortModule
   ],
   providers: [
     {
