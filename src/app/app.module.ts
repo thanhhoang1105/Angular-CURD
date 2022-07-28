@@ -32,6 +32,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { AuthorListComponent } from './components/OutputBinding/author-list/author-list.component';
 import { AuthorDetailComponent } from './components/OutputBinding/author-detail/author-detail.component';
+import { ToggleComponent } from './components/TwoWayBinding/toggle/toggle.component';
 // Register the localization
 registerLocaleData(localeDe, 'de-DE', localeDeExtra);
 
@@ -45,6 +46,7 @@ registerLocaleData(localeDe, 'de-DE', localeDeExtra);
     HelloComponent,
     AuthorListComponent,
     AuthorDetailComponent,
+    ToggleComponent,
   ],
   imports: [
     BrowserModule,

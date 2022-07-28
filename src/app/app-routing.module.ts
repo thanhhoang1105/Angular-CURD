@@ -1,3 +1,4 @@
+import { ToggleComponent } from './components/TwoWayBinding/toggle/toggle.component';
 import { AuthorListComponent } from './components/OutputBinding/author-list/author-list.component';
 import { HelloComponent } from './components/hello/hello.component';
 import { AboutComponent } from './components/about/about.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'hello', component: HelloComponent},
   { path: 'authorList', component: AuthorListComponent},
   { path: 'authorDetail', component: AuthorDetailComponent},
+  { path: 'twoWayBinding', component: ToggleComponent},
 ];
 
 @NgModule({
